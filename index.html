@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>撥雲見日的新手工程師 </title>
+    <title>撥雲見日的日常 </title>
     <!-- jQuery -->
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <!-- jQuery UI -->
@@ -38,12 +37,13 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <!-- myCSS -->
     <link rel="stylesheet" href="public/index.css" !important>
+    <link rel="icon" href="public/hand-solid.svg" type="image/x-icon">
 
 </head>
 
 <body>
     <script>  AOS.init(); </script>
-    <div id="root" class="container">
+    <div id="root" class="">
         <!-- 頁首 -->
         <header>
             <!-- 導覽列 -->
@@ -60,9 +60,6 @@
                     </li>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#personality">個人特質</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#experience">經歷</a>
                     </li>
                     <li class="nav-item dropdown">
@@ -73,9 +70,13 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#works">後台管理元件</a></li>
-                            <li><a class="dropdown-item" href="#works">九九乘法表</a></li>
-                            <li><a class="dropdown-item" href="#works">身份證字號檢核</a></li>
+                            <li><a class="dropdown-item" href="https://codepen.io/bjqs02/pen/abPBVxG"
+                                    target="_blank">簽名板<img src="public/up-right-from-square-solid.svg"
+                                        style="width: 15px; padding-left: 5px;" alt="" srcset=""></a></li>
+                            <li><a class="dropdown-item" href="https://codepen.io/bjqs02/pen/BavBGba"
+                                    target="_blank">簡易訂單介面<img src="public/up-right-from-square-solid.svg"
+                                        style="width: 15px; padding-left: 5px;" alt="" srcset=""></a></li>
+                            <!-- <li><a class="dropdown-item" href="#works">身份證字號檢核</a></li> -->
                         </ul>
                     </li>
                 </ul>
@@ -105,7 +106,7 @@
                 <!-- 學歷 -->
                 <div class="col mt-5">
                     <h5 class="text-bg-secondary p-1 text-center rounded">學歷</h5>
-                    <p class="text-center">台中資策會前端工程師養成班MFEE41研習中</p>
+                    <p class="text-center">iSpan資展國際前端工程師養成班MFEE41</p>
                     <p class="text-center">臺灣大學生物產業傳播暨發展學系學士</p>
                     <h5 class="text-bg-secondary p-1 text-center rounded">專長</h5>
                     <p class="text-center">資訊新知|食農教育|農鄉文化|社會議題|</p>
@@ -121,27 +122,31 @@
                 <div id="tabs">
                     <ul>
                         <li><a href="#tabs-1">網頁設計</a></li>
-                        <li><a href="#tabs-2">資料庫</a></li>
+                        <li><a href="#tabs-2">品牌行銷</a></li>
                         <li><a href="#tabs-3">語言</a></li>
                         <li><a href="#tabs-4">其他</a></li>
                     </ul>
                     <div id="tabs-1">
                         <ul>
-                            <li>HTML</li>
-                            <li>CSS || Bootstrap</li>
-                            <li>JavaScript || jQuery</li>
-                            <li>REACT (學習中)</li>
-                            <li>PHP || Node.js</li>
-                            <li>PhotoShop || Figma || Canva || Illustrate</li>
+                            <!-- 網頁設計 -->
+                            <li>前端｜HTML5 CSS Bootstrap JavaScript jQuery React Vue</li>
+                            <li>後端 || PHP Node.js</li>
+                            <li>視覺 || Illustrate Photoshop Canva Figma</li>
+                            <li>其他 || MySQL Git RESTFul</li>
                         </ul>
                     </div>
                     <div id="tabs-2">
                         <ul>
-                            <li>MySQL</li>
+                            <!-- 品牌行銷 -->
+                            <li>活動規劃</li>
+                            <li>社群媒體</li>
+                            <li>行政統籌</li>
+                            <li>領域：食農教育｜時事議題</li>
                         </ul>
                     </div>
                     <div id="tabs-3">
                         <ul>
+                            <!-- 語言 -->
                             <li>國語 - 流利</li>
                             <li>台語 - 中等 </li>
                             <li>英語 - 流利 <br /><span
@@ -151,90 +156,13 @@
                     </div>
                     <div id="tabs-4">
                         <ul>
+                            <!-- 其他 -->
                             <li>普通小型車駕照</li>
                             <li>普通重型機車駕照 </li>
                             <li>紐西蘭汽車駕照</li>
                         </ul>
                     </div>
                 </div>
-            </div>
-            <!-- 個人特質 -->
-            <div id="personality" data-bs-spy="scroll" data-bs-target="#navbar-example2"
-                data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
-                class="scrollspy-example bg-body-tertiary p-3 rounded-2 mt-5" tabindex="0" data-aos="fade-up"
-                data-aos-anchor-placement="top-bottom">
-                <div class="container title">
-                    <h5 class="myColorDark"><span>&nbsp;</span>個人特質</h5>
-                </div>
-                <!-- Swiper -->
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="public/personality_1.png" alt="icon" />
-                            <div>
-                                <h2>親和</h2>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="public/personality_2.png" alt="icon" />
-                            <div>
-                                <h2>樸實</h2>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="public/personality_5.png" alt="icon" />
-                            <div>
-                                <h2>開放</h2>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="public/personality_3.png" alt="icon" />
-                            <div>
-                                <h2>盡責</h2>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="public/personality_4.png" alt="icon" />
-                            <div>
-                                <h2>同理</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- swiper Js -->
-                <script>
-                    var swiper = new Swiper(".mySwiper", {
-                        effect: "coverflow",
-                        grabCursor: true,
-                        centeredSlides: true,
-                        loop: true,
-                        slidesPerView: "1",
-                        coverflowEffect: {
-                            rotate: 0,
-                            stretch: 0,
-                            depth: 100,
-                            modifier: 4,
-                            slideShadows: false
-                        },
-                        keyboard: {
-                            enabled: true
-                        },
-                        mousewheel: {
-                            thresholdDelta: 70
-                        },
-                        initialSlide: 0,
-                        on: {
-                            click(event) {
-                                swiper.slideTo(this.clickedIndex);
-                            }
-                        },
-                        breakpoints: {
-                            640: {
-                                slidesPerView: 2
-                            }
-                        }
-                    });
-                </script>
             </div>
             <!-- 經歷 -->
             <div id="experience" data-bs-spy="scroll" data-bs-target="#navbar-example2"
@@ -282,6 +210,7 @@
                         <div class="card-body">
                             <h5 class="card-title">SDGs</h5>
                             <p class="card-text">介紹聯合國永續發展指標，整理特色網站與實際應用的案例</p>
+                            <small class="card-text my-2">工具:HTML CSS Bootstrap Javascript</small><br>
                             <a href="https://bjqs02.github.io/mySDGs/index.html" class="btn myBGColorGreen"
                                 target="_blank">前往網站</a>
                         </div>
@@ -290,11 +219,11 @@
                         <img src="public/works0.png" class="card-img-top mt-3" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">作品名稱</h5>
-                            <p class="card-text">作品整理中...</p>
+                            <p class="card-text">作品增加中...</p>
                             <a href="#" class="btn myBGColorGreen">前往作品</a>
                         </div>
                     </div>
-                    <div class="card mx-auto col-12 col-md-4 mt-2" style="width: 18rem;" id="mycomponent2">
+                    <!-- <div class="card mx-auto col-12 col-md-4 mt-2" style="width: 18rem;" id="mycomponent2">
                         <img src="public/works0.png" class="card-img-top mt-3" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">作品名稱</h5>
@@ -309,7 +238,7 @@
                             <p class="card-text">作品整理中...</p>
                             <a href="#" class="btn myBGColorGreen">前往作品</a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </main>
